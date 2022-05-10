@@ -1,0 +1,4 @@
+To detect and count the number of people passing a particular region of space using Histogram of Oriented Gradient Descriptor(HOG) and Support Vector Machine(SVM).
+To design a System using HOG Descriptor to detect and localize the significant point features of the image especially in the regions affected by illuminations. 
+To generate reliable people counting and human detection is an important problem in visual surveillance.
+To ensure congestion control in public places.
