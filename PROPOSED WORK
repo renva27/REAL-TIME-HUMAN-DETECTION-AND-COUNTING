@@ -1,0 +1,9 @@
+Initially system consists of detecting the existing people in Image/Video/Webcam, using HOG. If the argument passed is an image, the system detects the existing people in the image. If the argument passed is a video stream, then the system make the same treatment for each video frame. If there are no arguments the function directly will seek the existence of a webcam or a camera installed on the computer. In the case of a video stream, the system treats the flow components as independent images, takes their local gradients separately and computes HOGs as in static image. Then the features extracted are passed through the SVM Classifier which classifies the sub image as human or non-human. Then it counts accordingly. Proposed System helps in Congestion analysis, finding the most used bus routes, most visited places, provides continuous surveillance and also helpful in pandemic situation to monitor the people count. 
+
+Concepts used:
+COMPUTER VISION:
+It seeks to understand and automate tasks that the human visual system can do and include methods for acquiring, processing, analyzing and understanding digital images, and extraction of high-dimensional data from the real world in order to produce numerical or symbolic information
+HOG:
+It is a feature descriptor for the purpose of object detection to counts the occurrences of gradient orientation in localized portions of an image
+SVM:
+It is a image classification algorithm where the feature vector produced from HOG is passed to it to produce good results.
