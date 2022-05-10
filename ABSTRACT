@@ -1,0 +1,13 @@
+Building Human Detection System to count the people passing a particular 
+region of space is an important and challenging field of research in visual 
+surveillance. Detection through Image/Video/Webcam is a Machine Learning 
+project on computer vision which seeks to understand and automate tasks that 
+the human visual system can do. Histogram of Oriented Gradient(HOG) is one of 
+the eminent algorithms for human shape detection. HOG features are extracted 
+from all location of a dense grid on an image region and use linear Support 
+Vector Machine (SVM) to classify the combined features. The HOG and SVM 
+algorithm concentrate on the contrast of silhouette contours against 
+the background. Human Detection and Counting System helps in Congestion 
+analysis, finding the most used bus routes, most visited places, provides 
+continuous surveillance and also helpful in pandemic situation to monitor the 
+people count.
